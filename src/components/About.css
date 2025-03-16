@@ -1,0 +1,153 @@
+/* About Page Container */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #f8f6f3;
+  }
+  
+  /* Left Section - Profile & Skills */
+  .about-left {
+    width: 30%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Skills List Container */
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    margin-top: 0px;
+  }
+  
+  /* Skill Category Styling */
+  .skill-category {
+    padding: 5px 0;
+  }
+  
+  .skill-category h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Skill Badges */
+  .skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill-badge {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  
+  /* Right Section - Education, Experience, Volunteering */
+  .about-right {
+    width: 60%;
+  }
+  
+  .about-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .about-section p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .about-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .about-section li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-left, .about-right {
+      width: 90%;
+    }
+  
+    .profile-image {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .about-section {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .skills-title {
+      font-size: 18px;
+    }
+  
+    .skills-list h3 {
+      font-size: 14px;
+    }
+  
+    .skills-list p {
+      font-size: 12px;
+    }
+  
+    .about-section h2 {
+      font-size: 20px;
+    }
+  
+    .about-section h3 {
+      font-size: 16px;
+    }
+  }
+  

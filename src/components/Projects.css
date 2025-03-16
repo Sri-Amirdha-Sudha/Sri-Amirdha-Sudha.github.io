@@ -1,0 +1,100 @@
+/* Projects Page Container */
+.projects-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f6f3;
+  }
+  
+  /* Title */
+  .projects-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  /* Grid Layout for Projects */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Individual Project Card */
+  .project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Placeholder Image */
+  .project-image {
+    width: 250px;
+    height: 150px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+  
+  /* Know More Button */
+  .know-more-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .know-more-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Project Heading */
+  .project-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  /* Project Description */
+  .project-description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  
+    .project-card {
+      padding: 15px;
+    }
+  
+    .know-more-btn {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .projects-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .projects-title {
+      font-size: 40px;
+    }
+  }
+  
