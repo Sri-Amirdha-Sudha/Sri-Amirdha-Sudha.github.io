@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17f79cc0.css",
+    "main.js": "/static/js/main.60b3cea0.js",
+    "static/js/453.b97a3a95.chunk.js": "/static/js/453.b97a3a95.chunk.js",
+    "static/media/citi.png": "/static/media/citi.d3f4ecb2e8d1c2c4713b.png",
+    "static/media/marketPulse.png": "/static/media/marketPulse.354ae6d714f896f55468.png",
+    "static/media/haas.png": "/static/media/haas.10cbf2598ab1461d740c.png",
+    "static/media/rag.png": "/static/media/rag.4ccbf73535632eaf156d.png",
+    "static/media/Resume.pdf": "/static/media/Resume.5afddf4011313223fdb2.pdf",
+    "static/media/profile.jpeg": "/static/media/profile.1b63b3fbcd3e67d45873.jpeg",
+    "static/media/walmart.png": "/static/media/walmart.4c32853728f3848a4be3.png",
+    "static/media/nike.png": "/static/media/nike.5440514e6d040a71be90.png",
+    "index.html": "/index.html",
+    "main.17f79cc0.css.map": "/static/css/main.17f79cc0.css.map",
+    "main.60b3cea0.js.map": "/static/js/main.60b3cea0.js.map",
+    "453.b97a3a95.chunk.js.map": "/static/js/453.b97a3a95.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17f79cc0.css",
+    "static/js/main.60b3cea0.js"
+  ]
+}
